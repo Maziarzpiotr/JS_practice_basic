@@ -11,6 +11,9 @@ if (process.version === 'v20.11.1') {
 } else {
     console.log('You are using an older version of Node.js');
 }
+/* check npm version in console.log */
+console.log(process.versions);
+console.log(process.versions.npm);
 
 /*check recommended LTs node version from nodejs.org*/
 console.log(process.versions);  
