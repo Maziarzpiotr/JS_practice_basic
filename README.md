@@ -1,6 +1,7 @@
 # Java script basic learning
 ## Chapter 1 - Introduction
-
+- [x] playing with console.log
+- [x] checking node version by AI
 ## Chapter 2 - ECMAscript basics
 
 ## Chapter 3 - Objects and functions
