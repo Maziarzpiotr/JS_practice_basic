@@ -6,6 +6,11 @@
 - [x] Understanding brakets
 - [x] Checking comments
 ## Chapter 3 - Objects and functions
+- [x] Declaring variables
+- [x] Variable types
+- [x] Variable scope
+- [x] Variable hoisting
+- [x] Variable naming conventions
 
 ## Chapter 4 - Classes
 
