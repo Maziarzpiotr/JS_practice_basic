@@ -3,7 +3,8 @@
 - [x] playing with console.log
 - [x] checking node version by AI
 ## Chapter 2 - ECMAscript basics
-
+- [x] Understanding brakets
+- [x] Checking comments
 ## Chapter 3 - Objects and functions
 
 ## Chapter 4 - Classes
