@@ -67,3 +67,16 @@ console.log(isSimpleType(fn));
 console.log(isSimpleType(map));
 console.log(isSimpleType(set));
 console.log(isSimpleType(promise));
+
+console.log('---------------Last test');
+const bigInteger = (BigInt(Number.MAX_SAFE_INTEGER) + BigInt(1));
+console.log(bigInteger);
+console.log(typeof bigInteger);
+console.log(isSimpleType(bigInteger));
+console.log(Number.MAX_SAFE_INTEGER);
+console.log(Number.MAX_VALUE);
+console.log(Number.MIN_VALUE);
+console.log(Number.MIN_SAFE_INTEGER);
+console.log(Number.EPSILON);
+console.log(Number.POSITIVE_INFINITY);
+console.log(Number.NEGATIVE_INFINITY);
