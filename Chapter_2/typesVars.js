@@ -34,9 +34,36 @@ myNumber = 10;
 console.log('1.'+typeof myNumber+' '+myNumber);
 myNumber = 10.0;
 console.log('2.'+typeof myNumber+' '+myNumber);
+/**
+ * Check if a variable type is simple or not.
+ * @param {*} variable - The variable to check.
+ * @returns {boolean} - True if the variable type is simple, false otherwise.
+ */
+function isSimpleType(variable) {
+    const simpleTypes = ['number', 'string', 'boolean', 'undefined', 'null'];
+    return simpleTypes.includes(typeof variable);
+}
+
+myNumber = 10.0;
+console.log('2.'+typeof myNumber+' '+myNumber);
+if (isSimpleType(myNumber)) {
+    console.log('simple type');
+} else {
+    console.log('complex type');
+}
+
 myNumber = .2;
 console.log('3.'+typeof myNumber+' '+myNumber);
 myNumber = 2e5;
 console.log('4.'+typeof myNumber+' '+myNumber);
 myNumber = -0.15;
 console.log('5.'+typeof myNumber+' '+myNumber);
+
+console.log(isSimpleType(array));
+console.log(isSimpleType(object));
+console.log(isSimpleType(date));
+console.log(isSimpleType(regexp));
+console.log(isSimpleType(fn));
+console.log(isSimpleType(map));
+console.log(isSimpleType(set));
+console.log(isSimpleType(promise));
