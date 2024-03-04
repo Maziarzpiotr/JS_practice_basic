@@ -80,3 +80,11 @@ console.log(Number.MIN_SAFE_INTEGER);
 console.log(Number.EPSILON);
 console.log(Number.POSITIVE_INFINITY);
 console.log(Number.NEGATIVE_INFINITY);
+console.log('---------------Last test end')
+let myBigInt = 19798797987989007199254740994
+console.log(typeof(myBigInt),myBigInt);
+// convert to string
+console.log(myBigInt.toString()+BigInt(1).toString());
+
+
+
