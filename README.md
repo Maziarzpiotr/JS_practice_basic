@@ -11,6 +11,7 @@
 - [x] 2.6 Variable variables vs constant 
 - [x] 2.7 Assigning, artmetical operators
 - [x] 2.8 Concatenation strings
+- [x] 2.9 Comparison
 
 
 ## Chapter 3 - Objects and functions
