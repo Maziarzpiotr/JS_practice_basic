@@ -12,6 +12,9 @@
 - [x] 2.7 Assigning, artmetical operators
 - [x] 2.8 Concatenation strings
 - [x] 2.9 Comparison
+- [x] 2.10 Logical operators
+- [x] 2.11 Conditionals operators
+- [ ] 2.12 For statement
 
 
 ## Chapter 3 - Objects and functions
