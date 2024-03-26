@@ -148,4 +148,9 @@ day = 6;
 result = utils.getDayOfWeek(day);
 console.log(utils.logExerciseNumber(logText,exerciseCount),result);
 exerciseCount += 1;
+// switch statement - 018
+day = 7;
+result = utils.getDayOfWeek(day);
+console.log(utils.logExerciseNumber(logText,exerciseCount),result);
+exerciseCount += 1;
 
